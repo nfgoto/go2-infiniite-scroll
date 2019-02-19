@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/nfgoto/unsplash-infiniite-scroll/issues"
   },
-  "homepage": "https://github.com/nfgoto/unsplash-infiniite-scroll#readme"
+  "homepage": "https://github.com/nfgoto/unsplash-infiniite-scroll#readme",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "concurrently": "^4.1.0",
+    "node-fetch": "^2.3.0",
+    "universal-config": "^0.3.0",
+    "unsplash-js": "^5.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.10"
+  }
 }
