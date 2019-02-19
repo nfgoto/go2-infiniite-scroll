@@ -1,0 +1,27 @@
+{
+  "name": "infinite_scroll",
+  "version": "1.0.0",
+  "description": "React / Express infinite scroll Unsplash gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "React Express infinite scroll Unsplash gallery"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfgoto/unsplash-infiniite-scroll.git"
+  },
+  "keywords": [
+    "React",
+    "Express",
+    "infinite",
+    "scroll",
+    "Unsplash",
+    "gallery"
+  ],
+  "author": "Florian GOTO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfgoto/unsplash-infiniite-scroll/issues"
+  },
+  "homepage": "https://github.com/nfgoto/unsplash-infiniite-scroll#readme"
+}
