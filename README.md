@@ -1,4 +1,4 @@
-# React / Express infinite scroll Unsplash gallery
+# Go2 infinite scroll Unsplash gallery
 
 - React
 - Express.js
