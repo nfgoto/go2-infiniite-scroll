@@ -4,7 +4,10 @@
   "description": "React / Express infinite scroll Unsplash gallery",
   "main": "index.js",
   "scripts": {
-    "test": "React Express infinite scroll Unsplash gallery"
+    "start:dev": "concurrently 'npm run server' 'npm run client'",
+    "start": "node server",
+    "client": "npm start --prefix client",
+    "server": "NODE_ENV='dev' nodemon server"
   },
   "repository": {
     "type": "git",
@@ -26,13 +29,17 @@
   "homepage": "https://github.com/nfgoto/unsplash-infiniite-scroll#readme",
   "dependencies": {
     "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
     "concurrently": "^4.1.0",
+    "express": "^4.16.4",
     "node-fetch": "^2.3.0",
     "universal-config": "^0.3.0",
     "unsplash-js": "^5.0.0"
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
+    "eslint": "^5.14.1",
+    "eslint-plugin-react": "^7.12.4",
     "nodemon": "^1.18.10"
   }
 }
