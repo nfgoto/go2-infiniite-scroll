@@ -7,6 +7,7 @@ global.fetch = require('node-fetch');
 const Unsplash = require('unsplash-js').default;
 const toJson = require('unsplash-js').toJson;
 const express = require('express');
+const cors = require('cors');
 
 // to make requests to the Unsplash QPI
 const unsplash = new Unsplash({
@@ -16,6 +17,8 @@ const unsplash = new Unsplash({
 });
 
 const app = express();
+
+app.use(cors());
 
 app.get(
     '/',
