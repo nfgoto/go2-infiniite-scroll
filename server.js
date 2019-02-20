@@ -22,7 +22,7 @@ app.get(
     (req, res) => {
         // get 50 photos
         unsplash.photos
-            .listPhotos(1, 50)
+            .listPhotos(req.query.start, req.query.count)
             .then(toJson)
             .then(jsonData => res.json(jsonData));
     }

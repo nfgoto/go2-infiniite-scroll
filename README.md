@@ -3,3 +3,6 @@
 - React
 - Express.js
 - Unsplash API
+- Concurrently
+- universal config
+- react-infinite-scroll-component
