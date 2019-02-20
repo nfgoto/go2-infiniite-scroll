@@ -1,13 +1,13 @@
 {
-  "main.css": "/go2infinite/client/static/css/main.b82a0218.chunk.css",
-  "main.js": "/go2infinite/client/static/js/main.fddd038d.chunk.js",
-  "main.js.map": "/go2infinite/client/static/js/main.fddd038d.chunk.js.map",
-  "runtime~main.js": "/go2infinite/client/static/js/runtime~main.4fd2fa1c.js",
-  "runtime~main.js.map": "/go2infinite/client/static/js/runtime~main.4fd2fa1c.js.map",
-  "static/js/2.49d01db2.chunk.js": "/go2infinite/client/static/js/2.49d01db2.chunk.js",
-  "static/js/2.49d01db2.chunk.js.map": "/go2infinite/client/static/js/2.49d01db2.chunk.js.map",
-  "index.html": "/go2infinite/client/index.html",
-  "precache-manifest.dfca9795928220998b631e48276cd7e4.js": "/go2infinite/client/precache-manifest.dfca9795928220998b631e48276cd7e4.js",
-  "service-worker.js": "/go2infinite/client/service-worker.js",
-  "static/css/main.b82a0218.chunk.css.map": "/go2infinite/client/static/css/main.b82a0218.chunk.css.map"
+  "main.css": "/go2infinite/static/css/main.b82a0218.chunk.css",
+  "main.js": "/go2infinite/static/js/main.fddd038d.chunk.js",
+  "main.js.map": "/go2infinite/static/js/main.fddd038d.chunk.js.map",
+  "runtime~main.js": "/go2infinite/static/js/runtime~main.febacf13.js",
+  "runtime~main.js.map": "/go2infinite/static/js/runtime~main.febacf13.js.map",
+  "static/js/2.49d01db2.chunk.js": "/go2infinite/static/js/2.49d01db2.chunk.js",
+  "static/js/2.49d01db2.chunk.js.map": "/go2infinite/static/js/2.49d01db2.chunk.js.map",
+  "index.html": "/go2infinite/index.html",
+  "precache-manifest.8941c938f437b80b8d60c361f67b17a5.js": "/go2infinite/precache-manifest.8941c938f437b80b8d60c361f67b17a5.js",
+  "service-worker.js": "/go2infinite/service-worker.js",
+  "static/css/main.b82a0218.chunk.css.map": "/go2infinite/static/css/main.b82a0218.chunk.css.map"
 }
