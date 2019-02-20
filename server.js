@@ -18,6 +18,14 @@ const unsplash = new Unsplash({
 const app = express();
 
 app.get(
+    '/',
+    (req, res) => {
+        res.send('<h1>It works !!</h1>');
+    }
+
+)
+
+app.get(
     '/api/photos',
     (req, res) => {
         // get 50 photos
