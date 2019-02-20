@@ -1,7 +1,7 @@
-# Go2 infinite scroll Unsplash gallery
+# Go2 infinite scroll Unsplash gallery - Full Stack App
 
 - React
-- Express.js
+- Node.js / Express.js
 - Unsplash API
 - Concurrently
 - universal config
