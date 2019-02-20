@@ -13,7 +13,7 @@ export class Images extends Component {
     async componentDidMount() {
         const { count, start } = this.state;
 
-        const res = await fetch(`/api/photos?start=${start}&count=${count}`);
+        const res = await fetch(`https://focused-knuth-d60225.netlify.com/api/photos?start=${start}&count=${count}`);
         const data = await res.json();
         console.log(data)
         this.setState({ images: [...data] });
@@ -25,7 +25,7 @@ export class Images extends Component {
         // increase start value
         this.setState({ start: this.state.start + this.state.count })
 
-        const res = await fetch(`/api/photos?start=${start}&count=${count}`);
+        const res = await fetch(`https://focused-knuth-d60225.netlify.com/api/photos?start=${start}&count=${count}`);
         const data = await res.json();
         // add the new images
         this.setState((prevState) => {
