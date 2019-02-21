@@ -6,7 +6,7 @@ import Image from './image';
 export class Images extends Component {
     state = {
         images: [],
-        count: 30,
+        count: 10,
         start: 1
     }
 
