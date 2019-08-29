@@ -40,6 +40,6 @@
   "devDependencies": {
     "dotenv": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.19.1"
   }
 }
